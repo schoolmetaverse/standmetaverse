@@ -1,0 +1,425 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "babylon.js glTF exporter for 3dsmax 2023 v20221031.2"
+  },
+  "extensionsUsed": [
+    "KHR_materials_volume",
+    "KHR_draco_mesh_compression"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "translation": [
+        0.477380365,
+        2.26664972,
+        -1.1583569
+      ],
+      "name": "luci_autoilluminanti",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 0,
+      "translation": [
+        4.077,
+        0.0269836243,
+        -3.40747571
+      ],
+      "name": "luce_colonna_destra",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 1,
+      "translation": [
+        2.0442698,
+        -2.22698355,
+        1.88936329
+      ],
+      "name": "stand_luce",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 2,
+      "translation": [
+        -4.0739994,
+        0.02698285,
+        -3.40947413
+      ],
+      "name": "luce_colonna_sinistra",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "mesh": 3,
+      "translation": [
+        -0.0009999389,
+        -2.2236805,
+        -3.258975
+      ],
+      "name": "seduta_finestra_luce",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 0,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "luce_colonna_destra"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 1,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "stand_luce"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 2,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "luce_colonna_sinistra"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "indices": 12,
+          "material": 0,
+          "mode": 4,
+          "extensions": {
+            "KHR_draco_mesh_compression": {
+              "bufferView": 3,
+              "attributes": {
+                "POSITION": 0,
+                "NORMAL": 1,
+                "TEXCOORD_0": 2
+              }
+            }
+          }
+        }
+      ],
+      "name": "seduta_finestra_luce"
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5123,
+      "count": 264,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 152,
+      "max": [
+        0.22600018700000002,
+        2.2271739130434782,
+        0.20217391304347826
+      ],
+      "min": [
+        -0.22617372604347824,
+        -2.2271739130434782,
+        -0.20217391304347826
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 152,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 152,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 84,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        0.1958605564250122,
+        0.02703855170679043,
+        1.719790773751832
+      ],
+      "min": [
+        -0.19526809775183196,
+        -0.026678688351831948,
+        -1.719791253751832
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 228,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 128,
+      "max": [
+        0.22482600795652177,
+        2.2271739130434782,
+        0.19982596895652172
+      ],
+      "min": [
+        -0.22517399204347824,
+        -2.2271739130434782,
+        -0.20017403104347825
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 128,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 128,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    },
+    {
+      "componentType": 5123,
+      "count": 72,
+      "type": "SCALAR",
+      "name": "accessorIndices"
+    },
+    {
+      "componentType": 5126,
+      "count": 48,
+      "max": [
+        4.304201270151441,
+        0.02961651196873473,
+        0.005902232792882266
+      ],
+      "min": [
+        -4.304201270151441,
+        -0.029201270151441135,
+        -0.006701577661441133
+      ],
+      "type": "VEC3",
+      "name": "accessorPositions"
+    },
+    {
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC3",
+      "name": "accessorNormals"
+    },
+    {
+      "componentType": 5126,
+      "count": 48,
+      "type": "VEC2",
+      "name": "accessorUVs"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 459
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 464,
+      "byteLength": 257
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 728,
+      "byteLength": 418
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1152,
+      "byteLength": 253
+    }
+  ],
+  "buffers": [
+    {
+      "name": "modelDraco",
+      "byteLength": 1408,
+      "uri": "data:application/octet-stream;base64,RFJBQ08CAgEBAAAAMFgCVgUAFl+rirf6lFJtvfWo0rf6LEtRFKUoVQABASB0EzDD6ADDwxSRNHNuFKhpTYX1fYDwCKBn1C3xj62AA/8AAAABAAEBAAEACQMAAAIBAQkDAAEDAQMJAgACAgEBAQAMA1kVAQQHVQkLVQ0BCAEIEZX0YFvtNdw5Vsqp0Ux/uo2Cmt0IFwAKb8EEAoAJcCEAwFsAFN5mViIAEQBALQh2AKAASCuAHaQASJsaeBEAuQNowIsByAAgA1wEADSgRwBoUCMAGoQIgAYAGoQYgJ5AA44EAETwCABEJQcBLtUIAFxSEICUANISAAAAAAD/BwAANWBlvmZmDsDNzEy+ZmaOQAsGAwEBAgKRP3AFuDy3RID/AAAAfwAAAP8CfUwIBQEBAAsDSQoBCG0DJQkDJQFNCgEIuQUBCBck7S5vmMeRm/4FNUq90bgAfVQGuxhWfQA4RhqyCCQJkEjQAI3IUAgppBuo5noADDAaQCbgj6oD0CMCQIsomUDpAeivADD6nACAAGi9IgA6QIsDiBgsAAAEDY24AAmQkLgACYgnAAAAcAcA2GkEqreFAAAAAP8DAAAAAAAAAAAAAAAAgD8KAAAAAABEUkFDTwICAQEAAAAQHAIbAQAHX59SdGsVBQEBEHoH4vRYxzjsas8G0RwGR8CCA/8AAAABAAEBAAEACQMAAAIBAQkDAAEDAQMJAgACAgEBAQAMAwEQAwEEBwEMBwEMAwEUBwAD/dcnioHOAQAAeATYgeI7DgDYj+YAAAAAACcHfgAevPwAO0A5AHhwcgAH4IHJAQAAAAD/BwAATzxGvtrMzLwd69u/G+tbQAsGAwEBAQEBQAEA/wAAAH8AAAD/AhpDCAUBAQEDNFk1VQGtApdVAa0CF1UBA1UBCTY5m5PRHjmdggQAAABAA8CGgAAAAAD/AwAAAAAAAAAAAAAAAIA/CgAAAAAAAABEUkFDTwICAQEAAAAoTAJLBQATb/Uppdp661Glb/VZlqIoSlGqAAEBEHkQf9i1aaf+PeRXaiA6qUt1Zu4HIBdThZ4+ZgP/AAAAAQABAQABAAkDAAACAQEJAwABAwEDCQIAAgIBAQEADAMBGDUDB5kJC5kJaQY1Cw6NwdS4desgkBm3KFivjALoIgAiAIBaEOwAQAGQVgA7SAGQNjXwIgByB9CAFwOQAUAGuAgAaECPANCgRgA0CBEADQA0CDEAPYEGHAkAiOARAIhKDgJcqhEAuKQgACkBpCUAAAAAAP8HAAAiWmS+ZmYOwIvASr5mZo5ACwYDAQECAnk/iAQ+XqBd/wAAAH8AAAD/AuNJCAUBAQALAwEIAQgBBAEIA1UBrQpVCQEErQoUSOlSJnWDjF0Hy227bDGMifJVqU8AuEjQAI3IUAgppBuo5noADDAaQCbgj6oD0CMCQIsomUDpAeivADD6nACAAGi9IgA6QIsDiBgsAAAEDY24AAmQkLgACYgjAAAAdQemRKHLtWCAAAAAAP8DAAAAAAAAAAAAAAAAgD8KAAAAAAAARFJBQ08CAgEBAAAAEBgCFgAABl+riq9VBQEBIFUG11M9TvJR/wKAQgP/AAAAAQABAAABAAkDAAACAQEJAwABAwEDCQIAAgIBAQEADAMBCAEMBwEIEwEkBgBu90JsgTEHAABgjgEAgAvAl18AAIA5AAQAcwAAQII5BgAALng5AATw8gsAACDMAQAAAAAAAP8HAACamYnAzczMvDPcI7uamQlBCwYDAQEBAQFAAQD/AAAAfwAAAP8CakMIBQEBAQOrBQEsAQIBBP////////////+XAQgBBgiAFeOEl4U/pwQAAABAA8CGgAAAAAD/AwAAAACAs6RwXT8AAIA/CgAAAA=="
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0,
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "name": "Material #39",
+      "extensions": {
+        "KHR_materials_volume": {
+          "thicknessFactor": 1.3,
+          "attenuationDistance": 0.87
+        }
+      },
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "extensionsRequired": [
+    "KHR_draco_mesh_compression"
+  ]
+}
